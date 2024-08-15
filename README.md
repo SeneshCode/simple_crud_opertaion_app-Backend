@@ -44,3 +44,95 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/SeneshCode/simple_crud_opertaion_app-react-js-node-js-.git
+
+2. **Backend Setup:**
+
+- Navigate to the backend directory:
+
+bash
+```bash
+cd backend
+```
+- Install the necessary dependencies:
+
+```bash
+Copy code
+npm install
+```
+- Configure your MongoDB connection string in the server.js file.
+
+Start the backend server:
+
+```bash
+Copy code
+npm start
+```
+
+The backend server should now be running on http://localhost:1574.
+```bash
+not privide yet front end for gide line correctly
+```
+
+```
+
+Frontend Setup:
+
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd ../frontend
+Install the necessary dependencies:
+
+bash
+Copy code
+npm install
+Start the frontend development server:
+
+bash
+Copy code
+npm start
+The frontend should now be running on http://localhost:3000.
+
+Usage
+Once both the backend and frontend servers are running, you can:
+
+Open your browser and go to http://localhost:3000 to interact with the application.
+Perform CRUD operations via the user interface:
+Create a new record by filling out the form and submitting it.
+View records listed on the page.
+Update existing records by editing and submitting the changes.
+Delete records by clicking the delete button.
+API Endpoints
+GET /api/users: Retrieve all users.
+POST /api/users: Create a new user.
+PUT /api/users/:id: Update an existing user.
+DELETE /api/users/:id: Delete a user.
+These endpoints are consumed by the React frontend using Axios.
+
+Project Structure
+php
+Copy code
+your-repo-name/
+│
+├── backend/               # Backend Node.js/Express server
+│   ├── models/            # Mongoose models
+│   ├── routes/            # Express routes
+│   ├── server.js          # Entry point for the backend server
+│   └── package.json       # Backend dependencies
+│
+├── frontend/              # Frontend React application
+│   ├── src/               # React components and pages
+│   ├── public/            # Static assets
+│   └── package.json       # Frontend dependencies
+│
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore file
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+javascript
+Copy code
+
+You can copy and paste this content directly into your `README.md` file on GitHub. Replace `your-username` and `your-repo-name` with your actual GitHub username and repository name.
+```
