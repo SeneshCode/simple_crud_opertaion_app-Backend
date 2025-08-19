@@ -73,7 +73,6 @@ The backend server should now be running on http://localhost:1574.
 not privide yet front end for gide line correctly
 ```
 
-```
 
 Frontend Setup:
 
@@ -86,12 +85,17 @@ Install the necessary dependencies:
 
 bash
 Copy code
+```
 npm install
+```
 Start the frontend development server:
+
 
 bash
 Copy code
+```
 npm start
+```
 The frontend should now be running on http://localhost:3000.
 
 Usage
@@ -104,15 +108,18 @@ View records listed on the page.
 Update existing records by editing and submitting the changes.
 Delete records by clicking the delete button.
 API Endpoints
+```
 GET /api/users: Retrieve all users.
 POST /api/users: Create a new user.
 PUT /api/users/:id: Update an existing user.
 DELETE /api/users/:id: Delete a user.
+```
 These endpoints are consumed by the React frontend using Axios.
 
 Project Structure
 php
 Copy code
+```
 your-repo-name/
 │
 ├── backend/               # Backend Node.js/Express server
@@ -128,11 +135,9 @@ your-repo-name/
 │
 ├── README.md              # Project documentation
 └── .gitignore             # Git ignore file
+```
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-javascript
-Copy code
-
-You can copy and paste this content directly into your `README.md` file on GitHub. Replace `your-username` and `your-repo-name` with your actual GitHub username and repository name.
-```
+javascript , node js
+( SeneshCode )
